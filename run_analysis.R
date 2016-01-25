@@ -1,6 +1,6 @@
 #Getting and Cleaning Coursera Project
 #Step 0 Preparation
-setwd("/home/shellychoo/Documents/CleaningData/week4")
+
 library(dplyr)
 library(data.table)
 url <-
