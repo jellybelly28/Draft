@@ -1,6 +1,6 @@
 Code Book
 
-Introduction of the Original Data Set
+I. INTRODUCTION OF THE ORIGINAL DATA SET
 
 This is the Codebook for the Assignment: Getting and Cleaning Data Course Project. The data set is the UCI Human Activity Recognition Using Smartphones Data Set.
 
@@ -31,7 +31,7 @@ Structure of the original data set
 Upon examining the data files, all the files partially named, "test" belong to the test subjects and all the files partially named "train" belong to the train subjects.
 The files with partial names of "X", "y", and "subject" correspond to various data points of the same subjects.
 
-Introduction of Getting and Cleaning the Data
+II. INTRODUCTION OF GETTING AND CLEANING SCRIPTS
 
 The script run_analysis.R performs several steps (5) in order to clean the original data set.Before the first step was started, the data was downloaded, unzipped, and read in R. Packages "dplyr" and "data.table" were used.
 
@@ -68,7 +68,7 @@ In this step, punctuations such as periods, commas or dashes are removed. In add
 Using the dplyr function, the second tidy dataset is created. The dataset is called: Tidydataset.
 
  
-Variables
+III. VARIABLES
 
 X_test: the data table of the X_test.txt file
 Y_test: the data table of the Y_test.txt file
