@@ -124,4 +124,4 @@ colnames(Extracted_data) <-
 Tidydataset <- Extracted_data %>%
   group_by(Subject, Activity) %>%
   summarise_each(funs(mean))
-write.table(Tidydataset, file = "./Tidydataset.txt")
+write.table(Tidydataset, file = "./Tidydataset.txt", row.name=FALSE)
